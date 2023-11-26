@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="sidebar-menu">
+        <ul>
+          <h4>Simulate</h4>
+          <li id="burglary">
+            <a href="#" class="siderbar-button">Burglary</a>
+          </li>
+          <li id="fire"><a href="#" class="siderbar-button">Fire</a></li>
+          <li id="both"><a href="#" class="siderbar-button">Both</a></li>
+          <li id="reset"><a href="#" class="siderbar-button">Reset</a></li>
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <div class="input-container">
+        <div class="top-container">
+          <div class="input-box">
+            <h1></h1>
+          </div>
+        </div>
+        <div class="button-grid">
+          <div id="button-grid-first-row" class="button-row">
+            <input type="button" class="button-grid-button" value="1" />
+            <input type="button" class="button-grid-button" value="2" />
+            <input type="button" class="button-grid-button" value="3" />
+          </div>
+          <div id="button-grid-second-row" class="button-row">
+            <input type="button" class="button-grid-button" value="4" />
+            <input type="button" class="button-grid-button" value="5" />
+            <input type="button" class="button-grid-button" value="6" />
+          </div>
+          <div id="button-grid-third-row" class="button-row">
+            <input type="button" class="button-grid-button" value="7" />
+            <input type="button" class="button-grid-button" value="8" />
+            <input type="button" class="button-grid-button" value="9" />
+          </div>
+          <div id="button-grid-fourth-row" class="button-row">
+            <input type="button" class="button-grid-button" value="*" />
+            <input type="button" class="button-grid-button" value="0" />
+            <input type="button" class="button-grid-button" value="#" />
+          </div>
+        </div>
+      </div>
+      <div class="output-container">
+        <div class="output-screen">
+          <h2></h2>
+        </div>
+      </div>
+    </main>
+    <script defer src="js/script.js" type="module"></script>
+  </body>
+</html>
